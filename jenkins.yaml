@@ -41,7 +41,7 @@ unclassified:
               repoOwner: "${GITHUB_ORGANIZATION}"
               repository: "pipeline-library"
   headerLabel:
-    text: "${GITHUB_APP}-bundle-v1"
+    text: "${GITHUB_APP}-bundle-v2"
 credentials:
   system:
     domainCredentials:
@@ -52,7 +52,7 @@ credentials:
           scope: GLOBAL
           secret: "${cbciCascWorkshopControllerProvisionSecret}"
       - string:
-          description: "Webhook secret for CloudBees CI Workshop GitHub App"
+          description: "Webhook secret for CloudBees CI Workshop GitHub App v2"
           id: "cloudbees-ci-workshop-github-webhook-secret"
           scope: SYSTEM
           secret: "${gitHubWebhookSecret}"
