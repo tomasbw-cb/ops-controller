@@ -1,5 +1,5 @@
 apiVersion: "1"
-version: "1"
+version: "2"
 id: "tomasbw-cb-ops-controller"
 description: "CloudBees CI configuration bundle for the tomasbw-cb ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/tomasbw-cb/ops-controller"
